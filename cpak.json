@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v2.json",
+  "manifest_version": "2.0",
+  "name": "FileZilla",
+  "description": "Transfer files with FTP, FTPS and SFTP.",
+  "version": "3.69.6",
+  "image": "ghcr.io/containerpak/filezilla:main",
+  "binaries": [
+    "/usr/bin/filezilla"
+  ],
+  "desktop_entries": [
+    "/usr/share/applications/org.filezillaproject.Filezilla.desktop"
+  ],
+  "dependencies": [],
+  "addons": [],
+  "idle_time": 0,
+  "override": {
+    "socketX11": true,
+    "socketWayland": true,
+    "socketPulseAudio": true,
+    "socketSessionBus": true,
+    "socketSystemBus": false,
+    "socketSshAgent": false,
+    "socketCups": true,
+    "socketGpgAgent": false,
+    "socketAtSpiBus": true,
+    "socketBluetooth": false,
+    "deviceDri": true,
+    "deviceKvm": false,
+    "deviceShm": true,
+    "deviceAlsa": false,
+    "deviceVideo": false,
+    "deviceFuse": false,
+    "deviceTun": false,
+    "deviceUsb": false,
+    "deviceInput": false,
+    "deviceTTY": false,
+    "deviceAll": false,
+    "notification": true,
+    "openURI": true,
+    "hostApplications": false,
+    "hostActions": [],
+    "filesystem": [
+      {
+        "path": "xdg-documents",
+        "access": "read-write"
+      },
+      {
+        "path": "xdg-download",
+        "access": "read-write"
+      },
+      {
+        "path": "xdg-music",
+        "access": "read-write"
+      },
+      {
+        "path": "xdg-pictures",
+        "access": "read-write"
+      },
+      {
+        "path": "xdg-videos",
+        "access": "read-write"
+      }
+    ],
+    "env": [],
+    "network": true,
+    "process": false,
+    "userNamespaces": false,
+    "memoryMaxMB": 0,
+    "cpuQuota": 0,
+    "pidsMax": 0,
+    "asRoot": false,
+    "allowedHostCommands": []
+  }
+}

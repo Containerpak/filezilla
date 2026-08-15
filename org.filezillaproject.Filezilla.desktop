@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=FileZilla
+Comment=Transfer files with FTP, FTPS and SFTP.
+Exec=filezilla %u
+Icon=filezilla
+Terminal=false
+Categories=Network;FileTransfer;
