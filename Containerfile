@@ -7,3 +7,4 @@ RUN apt-get update && \
     cpak-clean-junk
 
 COPY org.filezillaproject.Filezilla.desktop /usr/share/applications/org.filezillaproject.Filezilla.desktop
+COPY icon.png /usr/share/icons/hicolor/128x128/apps/filezilla.png
