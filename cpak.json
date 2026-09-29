@@ -4,7 +4,7 @@
   "name": "FileZilla",
   "description": "Transfer files with FTP, FTPS and SFTP.",
   "version": "3.69.6",
-  "image": "ghcr.io/containerpak/filezilla@sha256:7003ebc01db9564ae2d24af6bf456c620a8328ad467493f6361e626a5578f34d",
+  "image": "ghcr.io/containerpak/filezilla@sha256:9ca53f835f55c91c79ceece54142b39fa19eafe3db144f6496c7c81879983fff",
   "binaries": [
     "/usr/bin/filezilla"
   ],
